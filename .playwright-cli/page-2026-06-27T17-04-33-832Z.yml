@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bartendle home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: B
+        - generic [ref=e6]: Bartendle
+      - generic [ref=e7]:
+        - button "Sign In" [ref=e8] [cursor=pointer]
+        - button "Sign Up" [ref=e9] [cursor=pointer]
+    - region "Bartendle daily game" [ref=e10]:
+      - complementary "Daily progress" [ref=e11]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: Daily build sheet
+          - heading "Bartendle" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Read the measures, catch the method, and name three classic IBA cocktails before the round closes.
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Date
+            - strong [ref=e19]: 2026-06-02
+          - generic [ref=e20]:
+            - generic [ref=e21]: Score
+            - strong [ref=e22]: 0/3
+          - generic [ref=e23]:
+            - generic [ref=e24]: Pool
+            - strong [ref=e25]: 36 IBA recipes
+        - generic "Archive mode" [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: Archive
+            - strong [ref=e29]: Archive day
+          - generic [ref=e30]:
+            - button "Previous day" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+            - generic [ref=e34]:
+              - img [ref=e35]
+              - textbox "Archive date" [ref=e37]: 2026-06-02
+            - button "Next day" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+          - generic [ref=e41]:
+            - generic [ref=e42]: June 1 to today
+            - link "Today" [ref=e43] [cursor=pointer]:
+              - /url: /
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: Archive pours
+            - strong [ref=e47]: Recipe 1 of 3
+          - generic "Daily recipe progress" [ref=e48]:
+            - generic "Recipe 1" [ref=e49]
+            - generic "Recipe 2" [ref=e50]
+            - generic "Recipe 3" [ref=e51]
+      - article [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Recipe 1 of 3
+            - heading "What drink is this?" [level=2] [ref=e57]
+          - generic [ref=e58]: The unforgettables
+        - generic "Ingredients and proportions" [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: 45 ml
+            - generic [ref=e62]: Gin
+          - generic [ref=e63]:
+            - generic [ref=e64]: 15 ml
+            - generic [ref=e65]: Maraschino Luxardo
+          - generic [ref=e66]:
+            - generic [ref=e67]: 15 ml
+            - generic [ref=e68]: Fresh Lemon Juice
+          - generic [ref=e69]:
+            - generic [ref=e70]: "1"
+            - generic [ref=e71]: Bar Spoon Creme de Violette
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - text: Method
+            - paragraph [ref=e74]: Add all ingredients into a cocktail shaker.
+            - paragraph [ref=e75]: Shake with cracked ice and strain into a chilled cocktail glass.
+          - generic [ref=e76]:
+            - text: Garnish
+            - paragraph [ref=e77]: Optional Maraschino Cherry.
+        - generic [ref=e78]:
+          - generic [ref=e79]: Your guess
+          - generic [ref=e80]:
+            - combobox "Your guess" [ref=e81]
+            - button "Guess" [disabled] [ref=e82]:
+              - img [ref=e83]
+              - text: Guess
+  - alert [ref=e86]

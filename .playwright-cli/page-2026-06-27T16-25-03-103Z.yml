@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bartendle home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: B
+        - generic [ref=e6]: Bartendle
+      - generic [ref=e7]:
+        - button "Sign In" [disabled] [ref=e8]
+        - button "Sign Up" [disabled] [ref=e9]
+    - region "Bartendle daily game" [ref=e10]:
+      - complementary "Daily progress" [ref=e11]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: 21+ cocktail trivia
+          - heading "Bartendle" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Read the build sheet. Name the drink. Three IBA recipes every day.
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Date
+            - strong [ref=e19]: 2026-06-27
+          - generic [ref=e20]:
+            - generic [ref=e21]: Score
+            - strong [ref=e22]: 0/3
+          - generic [ref=e23]:
+            - generic [ref=e24]: Pool
+            - strong [ref=e25]: 36 IBA recipes
+        - generic "Daily recipe progress" [ref=e26]:
+          - generic "Recipe 1" [ref=e27]
+          - generic "Recipe 2" [ref=e28]
+          - generic "Recipe 3" [ref=e29]
+      - article [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: Recipe 1 of 3
+            - heading "What drink is this?" [level=2] [ref=e35]
+          - generic [ref=e36]: New Era
+        - generic "Ingredients and proportions" [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: 50 ml
+            - generic [ref=e40]: 100% Agave Tequila
+          - generic [ref=e41]:
+            - generic [ref=e42]: 5 ml
+            - generic [ref=e43]: Fresh lime
+          - generic [ref=e44]:
+            - generic [ref=e45]: dash
+            - generic [ref=e46]: A pinch of Salt
+          - generic [ref=e47]:
+            - generic [ref=e48]: 100 ml
+            - generic [ref=e49]: Pink Grapefruit Soda
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - text: Method
+            - paragraph [ref=e52]: Pour the tequila into a highball glass, squeeze the lime juice.
+            - paragraph [ref=e53]: Add ice and salt, fill up pink grapefruit soda.
+            - paragraph [ref=e54]: Stir gently.
+          - generic [ref=e55]:
+            - text: Garnish
+            - paragraph [ref=e56]: Garnish with a slice of lime.
+        - generic [ref=e57]:
+          - generic [ref=e58]: Your guess
+          - generic [ref=e59]:
+            - combobox "Your guess" [ref=e60]
+            - button "Submit" [disabled] [ref=e61]:
+              - img [ref=e62]
+              - text: Submit
+  - alert [ref=e65]

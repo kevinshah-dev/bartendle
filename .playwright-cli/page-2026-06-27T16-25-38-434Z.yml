@@ -1,0 +1,71 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bartendle home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: B
+        - generic [ref=e6]: Bartendle
+      - generic [ref=e7]:
+        - button "Sign In" [ref=e8] [cursor=pointer]
+        - button "Sign Up" [ref=e9] [cursor=pointer]
+    - region "Bartendle daily game" [ref=e10]:
+      - complementary "Daily progress" [ref=e11]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: 21+ cocktail trivia
+          - heading "Bartendle" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Read the build sheet. Name the drink. Three IBA recipes every day.
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Date
+            - strong [ref=e19]: 2026-06-27
+          - generic [ref=e20]:
+            - generic [ref=e21]: Score
+            - strong [ref=e22]: 1/3
+          - generic [ref=e23]:
+            - generic [ref=e24]: Pool
+            - strong [ref=e25]: 36 IBA recipes
+        - generic "Daily recipe progress" [ref=e26]:
+          - generic "Recipe 1" [ref=e27]
+          - generic "Recipe 2" [ref=e28]
+          - generic "Recipe 3" [ref=e29]
+      - article [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: Recipe 2 of 3
+            - heading "What drink is this?" [level=2] [ref=e35]
+          - generic [ref=e36]: Contemporary Classics
+        - generic "Ingredients and proportions" [ref=e37]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: 30 ml
+            - generic [ref=e85]: Amber Jamaican Rum
+          - generic [ref=e86]:
+            - generic [ref=e87]: 30 ml
+            - generic [ref=e88]: Martinique Molasses Rhum
+          - generic [ref=e89]:
+            - generic [ref=e90]: 15 ml
+            - generic [ref=e91]: Orange Curacao
+          - generic [ref=e92]:
+            - generic [ref=e93]: 15 ml
+            - generic [ref=e94]: Orgeat Syrup (Almond)
+          - generic [ref=e95]:
+            - generic [ref=e96]: 30 ml
+            - generic [ref=e97]: Fresh Squeezed Lime Juice
+          - generic [ref=e98]:
+            - generic [ref=e99]: 7.5 ml
+            - generic [ref=e100]: Simple Syrup
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - text: Method
+            - paragraph [ref=e101]: Add all ingredients into a shaker with ice.
+            - paragraph [ref=e102]: Shake and pour into a double rocks glass or an highball glass.
+          - generic [ref=e55]:
+            - text: Garnish
+            - paragraph [ref=e56]: Garnish with pineapple spear, mint leaves and lime peel.
+        - generic [ref=e103]:
+          - generic [ref=e104]: Your guess
+          - generic [ref=e105]:
+            - combobox "Your guess" [ref=e106]
+            - button "Submit" [disabled] [ref=e107]:
+              - img [ref=e108]
+              - text: Submit
+  - alert [ref=e65]
