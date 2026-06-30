@@ -204,8 +204,7 @@ a:focus-visible {
 .method-grid span,
 .guess-form label,
 .progress-copy span,
-.archive-heading span,
-.archive-range span {
+.archive-heading span {
   margin: 0;
   color: var(--brass-soft);
   font-family: var(--font-mono);
@@ -284,6 +283,10 @@ p {
   align-items: baseline;
   justify-content: space-between;
   gap: 14px;
+}
+
+.archive-range {
+  justify-content: flex-end;
 }
 
 .archive-heading strong {
@@ -704,9 +707,14 @@ p {
 }
 
 .summary-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  justify-self: end;
   color: var(--brass-soft);
   font-size: 0.84rem;
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .reset-button {

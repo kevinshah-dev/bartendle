@@ -187,11 +187,9 @@ export function BartendleGame() {
       <section className="game-layout" aria-label="Bartendle daily game">
         <aside className="bar-panel" aria-label="Daily progress">
           <div className="daily-intro">
-            <p className="kicker">Daily build sheet</p>
             <h1>Bartendle</h1>
             <p className="lede">
-              Read the measures, catch the method, and name three classic IBA
-              cocktails before the round closes.
+              Guess the IBA cocktail from the recipe.
             </p>
           </div>
 
@@ -205,10 +203,6 @@ export function BartendleGame() {
               <strong>
                 {score}/{DAILY_COCKTAIL_COUNT}
               </strong>
-            </div>
-            <div className="meta-tile">
-              <span>Pool</span>
-              <strong>{cocktails.length} IBA recipes</strong>
             </div>
           </div>
 
@@ -248,10 +242,11 @@ export function BartendleGame() {
                 <ChevronRight aria-hidden="true" size={18} />
               </button>
             </div>
-            <div className="archive-range">
-              <span>June 1 to today</span>
-              {!isToday ? <a href={archiveHref(todayKey, todayKey)}>Today</a> : null}
-            </div>
+            {!isToday ? (
+              <div className="archive-range">
+                <a href={archiveHref(todayKey, todayKey)}>Today</a>
+              </div>
+            ) : null}
           </div>
 
           <div>
@@ -376,7 +371,7 @@ export function BartendleGame() {
                   ) : null}
                   <div className="answer-actions">
                     <a href={activeCocktail.sourceUrl} rel="noopener" target="_blank">
-                      IBA source
+                      Recipe
                       <ExternalLink aria-hidden="true" size={16} />
                     </a>
                     {guesses.length < DAILY_COCKTAIL_COUNT ? (
@@ -408,7 +403,8 @@ export function BartendleGame() {
                         <span>{cocktail.ingredients.join(" / ")}</span>
                       </div>
                       <a href={cocktail.sourceUrl} rel="noopener" target="_blank">
-                        Source
+                        Recipe
+                        <ExternalLink aria-hidden="true" size={15} />
                       </a>
                     </div>
                   );
